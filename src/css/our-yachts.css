@@ -1,3 +1,14 @@
 .ouryachts{
-  padding: 150px 0;
+
+}
+.ouryachts-title{
+  max-width: 714px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #FBFBFB;
+  margin-bottom: 75px;
 }
