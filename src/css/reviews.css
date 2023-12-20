@@ -1,0 +1,31 @@
+/* ============== MOBILE REVIEW STYLES ============== */
+.reviews-title {
+  text-align: center;
+  font-size: 28px;
+  max-width: 335px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ============== MOBILE REVIEW STYLES ============== */
+
+/* ============== TABLET REVIEW STYLES ============== */
+@media screen and (min-width: 768px) {
+  .reviews-title {
+    font-size: 48px;
+    max-width: 704px;
+  }
+}
+/* ============== TABLET REVIEW STYLES ============== */
+
+/* ============== DESKTOP REVIEW STYLES ============== */
+@media screen and (min-width: 1280px) {
+  .reviews-title {
+    max-width: 854px;
+  }
+}
+/* ============== DESKTOP REVIEW STYLES ============== */
