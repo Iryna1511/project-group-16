@@ -1,4 +1,105 @@
+
 .ouryachts{
+  text-align: center;
+}
+.ouryachts-title{
+  text-align: center;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1; /* 100% */
+  letter-spacing: -0.02em;
+  color: #FBFBFB;
+  margin-bottom: 40px;
+}
+.ouryachts-list{
+  margin-bottom: 40px;
+}
+.ouryachts-list-item{
+  padding: 16px 16px;
+  border-radius: 24px;
+  background-color: #FBFBFB;
+}
+.list-item-top-img{
+  width: 100%;
+  border-radius: 24px;
+}
+.list-item-bottom{
+  padding: 32px 16px 16px;
+}
+.list-item-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 17px;
+  border-bottom: 1px solid  rgba(4, 3, 6, 0.10);
+}
+.list-item-info-title{
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 118%; /* 16.52px */
+  letter-spacing: -0.045em;
+  text-transform: uppercase;
+  color: #1B414B;
+}
+.list-item-info-text{
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.36px;
+  opacity: 0.4;
+  text-transform: uppercase;
+  color: #040306;
+}
+.list-item-prices{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+}
+.list-item-prices-label{
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  opacity: 0.4;
+  text-transform: uppercase;
+  text-align: left;
+  color: #040306;
+  row-gap: 6px;
+  display: flex;
+  flex-direction: column;
+}
+.list-item-prices-price{
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #040306;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+.ouryachts-link{
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.30; /* 128.571% */
+  letter-spacing: -0.02em;
+  color: #FBFBFB;
+
+  padding: 14px 40px;
+  border-radius: 15px;
+  border: 1px solid rgba(251, 251, 251, 0.35);
+}
+
+
+@media screen and (min-width: 768px){
+  .ouryachts{
 
 }
 .ouryachts-title{
@@ -11,4 +112,5 @@
   text-align: center;
   color: #FBFBFB;
   margin-bottom: 75px;
+}
 }
