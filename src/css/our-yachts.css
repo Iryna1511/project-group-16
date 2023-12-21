@@ -12,7 +12,7 @@
   margin-bottom: 40px;
 }
 .ouryachts-list-item{
-  padding: 16px 16px;
+  padding: 16px;
   border-radius: 24px;
   background-color: #FBFBFB;
 }
@@ -106,10 +106,6 @@
 .ouryachts-title{
   max-width: 714px;
   font-size: 48px;
-  line-height: 1;
-  letter-spacing: -0.02em;
-  text-align: center;
-  color: #FBFBFB;
   margin: 0 auto 75px;
 }
 .ouryachts-list{
@@ -124,17 +120,30 @@
 .list-item-info-title{
   font-size: 16px;
 }
+.list-item-info-title-span{
+  display: none;
+}
 .list-item-info-text{
   font-size: 13px;
 }
 .ouryachts-link{
   width: 179px;
   font-size: 18px;
-  padding: 14px;
 }
 }
 @media screen and (min-width: 1280px){
   .ouryachts-list-item:last-child{
   display: block;
+}
+.list-item-info-title-span{
+  display: inline-flex;
+}
+.ouryachts-link{
+  transition: background-color 250ms cubic-bezier(.65, .66, .54, .52);
+}
+.ouryachts-link:hover,
+.ouryachts-link:focus{
+  color: #1B414B;
+  background-color: #FBFBFB;
 }
 }
