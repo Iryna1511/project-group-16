@@ -48,7 +48,7 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
-  letter-spacing: 0.36px;
+  letter-spacing: 0.03em;
   opacity: 0.4;
   text-transform: uppercase;
   color: #040306;
@@ -89,14 +89,13 @@
   margin: 0 auto;
   width: 141px;
   height: 46px;
-  font-family: Inter;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.02em;
   color: #FBFBFB;
 
-  padding: 14px;
+  padding: 16px;
   border-radius: 15px;
   border: 1px solid rgba(251, 251, 251, 0.35);
 }
