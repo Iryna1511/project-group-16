@@ -1,0 +1,41 @@
+.text-advantages{
+    color: #FBFBFB;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.16;
+    letter-spacing: -0.02em;
+   }
+
+.list-advantages {
+    list-style: none;
+    
+}
+
+.current{
+    position: relative;
+}
+
+.text-advantages.current::before{
+    contain: "";
+    display: block;
+    width: 295px;
+    height: 2px;
+    border-radius: 18px;
+    background: rgba(251, 251, 251, 0.10);
+    position: absolute;
+    left: 0;
+
+}
+
+
+
+
+.img-advantages{
+    display: flex;
+    width: 335px;
+    height: 424px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
