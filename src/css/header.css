@@ -3,97 +3,148 @@
 /*================HEDER-MOBILE================= */
 
 @media screen and (max-width: 767px) {
+  .manu-header {
+    display: none;
+  }
 
-    
-}
-    
+  .manu-icon-header {
+    display: none;
+  }
+  .logo-header {
+    color: #1b414b;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.42px;
+  }
+  .pege-header {
+    max-width: 320px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    border: 1px solid #fbfbfb;
+    background: #fbfbfb;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: sticky;
+    z-index: 9999999;
+    margin-bottom: -62px;
+  }
 
-
-.pege-header {
-  border-radius: 8px;
-  border: 1px solid #fbfbfb;
-  background: #fbfbfb;
-  position: sticky;
-  z-index: 9999999;
-  margin: 0 auto -80px auto;
-  padding: 4px 30px 4px 30px;
-  width: 1240px;
-  height: 48px;
-}
-
-.nav-header {
-  display: flex;
-  align-items: center;
-  margin-right: auto;
-  justify-content: space-between;
-}
-
-.logo-header {
-  display: inline-block;
-  color: #1b414b;
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 500;
-  letter-spacing: -0.02em;
-}
-
-.manu-header {
-  display: flex;
-  gap: 4px;
-}
-
-.manu-header-list {
-  background: rgba(27, 65, 75, 0.5);
-  width: 91px;
-  height: 40px;
-  border-radius: 8px;
-  text-align: center;
-}
-.manu-header-list:hover,
-.manu-header-list:focus {
-  background: #1b414b;
+  .header-mobile-menu-open-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+    stroke: #1b414b;
+  }
 }
 
-.manu-header-link {
-  display: block;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  font-family: Inter;
-  text-align: center;
-  font-size: 9px;
-  font-weight: 400;
-  line-height: 130%;
-  text-transform: uppercase;
-}
+/*================HEDER-MOBILE================= */
 
-.manu-icon-header {
-  padding: 0;
-}
+/*================HEDER-TABLET================= */
+@media screen and (min-width: 768px) {
+  .header-mobile-menu-open-btn {
+    display: none;
+  }
 
-.manu-icon-list-header {
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-}
+  .pege-header {
+    border-radius: 8px;
+    border: 1px solid #fbfbfb;
+    background: #fbfbfb;
+    position: sticky;
+    z-index: 9999999;
+    margin: 0 auto -80px auto;
+    padding: 4px 28px 4px 28px;
+    max-width: 704px;
+    height: 48px;
+  }
 
-.manu-icon-title-header {
-  width: 24px;
-  height: 24px;
-  line-height: 0;
-}
+  .nav-header {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    justify-content: space-between;
+  }
 
-.manu-icon-link-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  fill: #1b414b;
-  background-color: transparent;
-}
+  .logo-header {
+    display: inline-block;
+    color: #1b414b;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+  }
 
-.manu-icon-link-header:hover,
-.manu-icon-link-header:focus {
-  fill: #062730;
+  .manu-header {
+    display: flex;
+    gap: 4px;
+  }
+
+  .manu-header-list {
+    background: rgba(27, 65, 75, 0.5);
+    width: 91px;
+    height: 40px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .manu-header-list:hover,
+  .manu-header-list:focus {
+    background: #1b414b;
+  }
+
+  .manu-header-link {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 130%;
+    text-transform: uppercase;
+  }
+
+  .manu-icon-header {
+    padding: 0;
+  }
+
+  .manu-icon-list-header {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .manu-icon-title-header {
+    width: 24px;
+    height: 24px;
+    line-height: 0;
+  }
+
+  .manu-icon-link-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    fill: #1b414b;
+    background-color: transparent;
+  }
+
+  .manu-icon-link-header:hover,
+  .manu-icon-link-header:focus {
+    fill: #062730;
+  }
 }
+/*================HEDER-TABLET================= */
+
+/*================HEDER-DESKTOP================= */
+@media screen and (min-width: 1280px) {
+  .pege-header {
+    padding: 4px 30px 4px 30px;
+    max-width: 1240px;
+  }
+}
+/*================HEDER-DESKTOP================= */
