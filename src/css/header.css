@@ -1,5 +1,5 @@
 /*================HEDER================= */
-
+ 
 .pege-header {
   border-radius: 8px;
   border: 1px solid #fbfbfb;
@@ -7,14 +7,15 @@
   position: sticky;
   z-index: 9999999;
   margin: 32px 100px -80px 100px;
+ 
 }
 
 .container-header {
   display: flex;
-  align-items: center;
-  max-width: 1240px;
-  height: 48px;
+  align-items: center;  
   padding: 0 30px;
+  width: 1240px;
+  height: 48px;
 }
 
 .nav-header {
@@ -39,30 +40,34 @@
   gap: 4px;
 }
 
-.manu-header-list {
-  background: rgba(27, 65, 75, 0.5);
-  width: 91px;
-  height: 40px;
-  border-radius: 8px;
-  text-align: center;
+.manu-header-list{
+
+background: rgba(27, 65, 75, 0.50);
+width: 91px;
+height: 40px;
+border-radius: 8px;
+text-align: center;
 }
 .manu-header-list:hover,
 .manu-header-list:focus {
-  background: #1b414b;
+    background: #1B414B;
 }
 
 .manu-header-link {
-  display: block;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  color: #fbfbfb;
-  font-family: Inter;
-  text-align: center;
-  font-size: 9px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 130%; /* 11.7px */
-  text-transform: uppercase;
+display: block;
+padding-top: 15px;
+padding-bottom: 15px;
+color: #FBFBFB;
+font-family: Inter;
+text-align: center;
+font-size: 9px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%; /* 11.7px */
+text-transform: uppercase;
+
+
+
 }
 
 .manu-icon-header {
@@ -75,18 +80,21 @@
 }
 
 .manu-icon-title-header {
-  width: 24px;
-  height: 24px;
-  line-height: 0;
+    width: 24px;
+    height: 24px;
+    line-height: 0
+    ;
 }
 
 .manu-icon-link-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  fill: #1b414b;
-  background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    fill: #1B414B;
+    background-color: transparent;
 }
+
+
