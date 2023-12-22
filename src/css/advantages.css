@@ -7,8 +7,21 @@
    }
 
 .list-advantages {
-    list-style: none;
-    
+    list-style: none;  
+}
+
+.list-advantages.item-list-advantages::before{
+    text-align: left;
+    display: block;
+    color: #FBFBFB;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.0;
+    letter-spacing: 0.05em;
+}
+
+.list-advantages.item-list-advantages:nth-child(1):before {
+    content: 01;
 }
 
 .current{
