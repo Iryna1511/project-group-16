@@ -2,36 +2,38 @@
 
 /*================HEDER-MOBILE================= */
 
+.pege-header {
+  max-width: 335px;
+  padding: 7px 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fbfbfb;
+  color: #1b414b;
+  border-radius: 8px;
+  border: 1px solid #fbfbfb;
+}
+
+.manu-icon-list-header {
+  display: flex;
+  gap: 8px;
+}
+
+.logo-header {
+  color: #1b414b;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.42px;
+}
+
 @media screen and (max-width: 767px) {
-  .manu-header {
+  .manu-icon-list-header {
     display: none;
   }
 
-  .manu-icon-header {
+  .manu-header-wrap {
     display: none;
-  }
-  .logo-header {
-    color: #1b414b;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: -0.42px;
-  }
-  .pege-header {
-    max-width: 320px;
-    height: 42px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 8px;
-    border: 1px solid #fbfbfb;
-    background: #fbfbfb;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    position: sticky;
-    z-index: 9999999;
-    margin-bottom: -62px;
   }
 
   .header-mobile-menu-open-btn {
@@ -46,39 +48,22 @@
 /*================HEDER-MOBILE================= */
 
 /*================HEDER-TABLET================= */
+
 @media screen and (min-width: 768px) {
-  .header-mobile-menu-open-btn {
-    display: none;
-  }
-
   .pege-header {
-    border-radius: 8px;
-    border: 1px solid #fbfbfb;
-    background: #fbfbfb;
-    position: sticky;
-    z-index: 9999999;
-    margin: 0 auto -80px auto;
-    padding: 4px 28px 4px 28px;
     max-width: 704px;
-    height: 48px;
-  }
-
-  .nav-header {
-    display: flex;
-    align-items: center;
-    margin-right: auto;
-    justify-content: space-between;
+    padding: 4px 28px;
   }
 
   .logo-header {
-    display: inline-block;
-    color: #1b414b;
     font-size: 20px;
-    font-weight: 500;
     letter-spacing: -0.02em;
   }
 
-  .manu-header {
+  .manu-header-wrap {
+    display: block;
+  }
+  .manu-header-wrap .manu-header {
     display: flex;
     gap: 4px;
   }
@@ -94,8 +79,13 @@
   .manu-header-list:focus {
     background: #1b414b;
   }
+  .manu-icon-list-header {
+    display: flex;
+    gap: 8px;
+  }
 
   .manu-header-link {
+    color: #fbfbfb;
     display: block;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -106,14 +96,8 @@
     text-transform: uppercase;
   }
 
-  .manu-icon-header {
-    padding: 0;
-  }
-
-  .manu-icon-list-header {
-    display: flex;
-    justify-content: center;
-    gap: 8px;
+  .header-mobile-menu-open-btn {
+    display: none;
   }
 
   .manu-icon-title-header {
@@ -138,13 +122,15 @@
     fill: #062730;
   }
 }
+
 /*================HEDER-TABLET================= */
 
 /*================HEDER-DESKTOP================= */
+
 @media screen and (min-width: 1280px) {
   .pege-header {
-    padding: 4px 30px 4px 30px;
-    max-width: 1240px;
+    max-width: 1080px;
+    padding: 4px 30px;
   }
 }
 /*================HEDER-DESKTOP================= */
