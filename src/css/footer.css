@@ -1,25 +1,14 @@
 /*Телефон*/
 
-.body {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 .footer_for_site {
-    width: 100%;
+    width: 335px;
     margin-top: auto;
-}
-
-.background {
+    padding: 40px 30px 20px 30px;
     border-radius: 24px 24px 0px 0px;
     background: #1B414B;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    margin: 0 auto;
 }
 
 /*Лого для футера*/
@@ -28,13 +17,10 @@
     height: 18px;
     flex-shrink: 0;
     color: #FBFBFB;
-    font-family: Inter;
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
     letter-spacing: -0.42px;
-    margin-right: 37px;
+
 }
 
 /*Кнопки навігації для футера*/
@@ -44,54 +30,49 @@
 .div_for_logo_and_nav {
     display: flex;
     justify-content: center;
-    padding-top: 40px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .nav_buttons_in_footer {
     display: flex;
     gap: 4px;
+    margin-bottom: 80px;
 }
 
 .body_buttons_in_footer {
-    min-width: 66px;
-}
-
-.buttons_in_footer {
     border-radius: 8px;
     border: 1px solid rgba(251, 251, 251, 0.30);
-    width: 100%;
-    height: 40px;
-    flex-shrink: 0;
-    color: #FBFBFB;
-    text-align: center;
-    font-family: Inter;
-    font-size: 9px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 130%;
-    text-transform: uppercase;
-    background: rgba(251, 251, 251, 0.30);
-    align-items: center;
-    text-align: center;
+    background-color: rgba(251, 251, 251, 0.30);
     overflow: hidden;
+    color: #FBFBFB;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 1.30;
+    text-transform: uppercase;
+    width: 66px;
+    height: 40px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.buttons_in_footer:hover {
+.buttons_in_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 66px;
+    height: 40px;
+}
+
+.body_buttons_in_footer:hover,
+focus,
+active {
     background-color: #FBFBFB;
     color: #1B414B;
 }
 
-.buttons_in_footer:focus {
-    background-color: #FBFBFB;
-    color: #1B414B;
-}
 
-.buttons_in_footer:active {
-    background-color: #FBFBFB;
-    color: #1B414B;
-}
 
 /*Іконки*/
 
@@ -100,14 +81,8 @@
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.svg_link:hover  {
+.svg_link:hover {
     fill: #FBFBFBCC;
-}
-
-.div_for_icons_in_footer {
-    display: flex;
-    align-items: center;
-    padding-top: 80px;
 }
 
 .ul_for_icon_in_footer {
@@ -121,38 +96,34 @@
 .text_for_footer {
     color: #FBFBFB;
     text-align: center;
-    font-family: Inter;
     font-size: 18px;
-    font-style: normal;
     font-weight: 400;
     line-height: 100%;
     letter-spacing: -0.36px;
-    padding-top: 40px;
     width: 279px;
     margin: 0 auto;
+    margin-bottom: 82px;
 }
 
 /*Останні лінки у футері*/
 .table_for_links {
     display: flex;
     gap: 20px;
-    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .div_for_link_in_footer {
     display: flex;
     align-items: center;
     margin: 0 auto;
-    margin-top: 82px;
-    padding-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 .last_links_in_footer {
     color: rgba(251, 251, 251, 0.40);
     text-align: center;
-    font-family: Inter;
     font-size: 12px;
-    font-style: normal;
     font-weight: 400;
     line-height: 14px;
     letter-spacing: 0.36px;
@@ -160,169 +131,147 @@
 
 
 /*Планшет*/
-@media (min-width: 767px) and (max-width: 1279px) {
-
-    .body {
-        padding-left: 16px;
-        padding-right: 16px;
-    }
+@media screen and (min-width: 768px) {
 
     .footer_for_site {
+        width: 736px;
         display: flex;
-    }
-
-    .background {
         flex-direction: row;
         flex-wrap: wrap;
     }
 
-    
-        .logo_link_in_footer {
-            font-size: 20px;
-            letter-spacing: -0.6px;
-            margin-right: 106px;
-        }
-    
-        /*Кнопки навігації для футера*/
-    
+    .logo_link_in_footer {
+        font-size: 20px;
+        letter-spacing: -0.6px;
+    }
 
-        .nav_buttons_in_footer {
-            margin-right: 106px;
-        }
+    /*Кнопки навігації для футера*/
 
-        .div_for_logo_and_nav {
-            display: flex;
-            padding-top: 50px;
-            margin-left: auto;
-        }
-    
-        .body_buttons_in_footer {
-            width: 91px;
-            height: 40px;
-        }
-    
-        /*Іконки*/
 
-                .div_for_icons_in_footer {
-                    padding-top: 35px;
-                    margin-right: auto;
-                }
-    
-        .ul_for_icon_in_footer {
-            margin: 0;
-        }
-    
-        /*Текст у футері*/
+    .nav_buttons_in_footer {
+        margin-bottom: 0px;
+    }
 
-        .div_for_text_in_footer {
-            width: 100%;
-        }
-    
-        .text_for_footer {
-            padding-top: 96px;
-            width: 640px;
-            color: #FBFBFB;
-            font-size: 32px;
-            letter-spacing: -0.64px;
-        }
-    
-        /*Останні лінки у футері*/
-    
-        .div_for_link_in_footer {
-            padding-bottom: 20px;
-            width: 100%;
-            justify-content: center;
-        }
+    .div_for_logo_and_nav {
+        display: flex;
+        margin-bottom: 96px;
+        justify-content: space-between;
+        width: 100%;
+    }
 
-        .last_links_in_footer {
-                font-size: 14px;
-                line-height: 118%;
-                letter-spacing: 0.42px;
-        }
+    .body_buttons_in_footer {}
+
+    /*Іконки*/
+
+    .ul_for_icon_in_footer {
+        margin: 0;
+    }
+
+    /*Текст у футері*/
+
+    .div_for_text_in_footer {
+        width: 100%;
+    }
+
+    .text_for_footer {
+        width: 640px;
+        color: #FBFBFB;
+        font-size: 32px;
+        letter-spacing: -0.64px;
+    }
+
+    /*Останні лінки у футері*/
+
+    .div_for_link_in_footer {
+        justify-content: center;
+    }
+
+    .last_links_in_footer {
+        font-size: 14px;
+        line-height: 1.18;
+        letter-spacing: 0.42px;
+    }
+
+    .table_for_links {
+        margin: 0 auto;
+    }
 }
 
 /*Десктоп*/
 
-@media (min-width: 1280px) and (max-width: 1439px) {
-
-    .body {
-        padding-left: 25px;
-        padding-right: 25px;
-    }
+@media screen and (min-width: 1280px) {
 
     .footer_for_site {
-            display: flex;
-        }
-    
-        .background {
-            flex-direction: row;
-            flex-wrap: wrap;
-        }
-    
-    
-        .logo_link_in_footer {
-            font-size: 20px;
-            letter-spacing: -0.6px;
-            margin-right: 0px;
-        }
-    
-        /*Кнопки навігації для футера*/
-    
-    
-        .nav_buttons_in_footer {
-            margin-right: 311px;
-            margin-left: 326px;
-        }
-    
-        .div_for_logo_and_nav {
-            display: flex;
-            padding-top: 50px;
-            margin-left: auto;
-        }
-    
-        .body_buttons_in_footer {
-            width: 91px;
-            height: 40px;
-        }
-    
-        /*Іконки*/
-    
-        .div_for_icons_in_footer {
-            padding-top: 35px;
-            margin-right: auto;
-        }
-    
-        .ul_for_icon_in_footer {
-            margin: 0;
-        }
-    
-        /*Текст у футері*/
-    
-        .div_for_text_in_footer {
-            width: 100%;
-        }
-    
-        .text_for_footer {
-            padding-top: 111px;
-            width: 640px;
-            color: #FBFBFB;
-            font-size: 32px;
-            letter-spacing: -0.64px;
-        }
-    
-        /*Останні лінки у футері*/
-    
-        .div_for_link_in_footer {
-            padding-bottom: 20px;
-            width: 100%;
-            justify-content: center;
-            margin-top: 99px;
-        }
-    
-        .last_links_in_footer {
-            font-size: 14px;
-            line-height: 118%;
-            letter-spacing: 0.42px;
-        }
+        width: 1230px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 
+    .logo_link_in_footer {
+        font-size: 20px;
+        letter-spacing: -0.6px;
+        margin-right: 0px;
+    }
+
+    /*Кнопки навігації для футера*/
+
+
+    .nav_buttons_in_footer {
+        margin-right: 311px;
+        margin-left: 326px;
+    }
+
+    .div_for_logo_and_nav {
+        display: flex;
+        margin-left: auto;
+        margin-bottom: 96px;
+    }
+
+    .body_buttons_in_footer {
+        margin: 0;
+    }
+
+    /*Іконки*/
+
+    .ul_for_icon_in_footer {
+        margin: 0;
+    }
+
+    /*Текст у футері*/
+
+    .div_for_text_in_footer {
+        width: 100%;
+    }
+
+    .text_for_footer {
+        width: 640px;
+        color: #FBFBFB;
+        font-size: 32px;
+        letter-spacing: -0.64px;
+    }
+
+    /*Останні лінки у футері*/
+
+    .div_for_link_in_footer {
+        justify-content: center;
+    }
+
+    .last_links_in_footer {
+        font-size: 14px;
+        line-height: 1.18;
+        letter-spacing: 0.42px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .footer_for_site {
+        flex-direction: column;
+    }
+
+    .div_for_link_in_footer {
+        display: flex;
+        flex-direction: column;
+    }
 }
