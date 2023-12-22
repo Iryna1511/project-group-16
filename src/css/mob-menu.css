@@ -11,7 +11,7 @@
         height: 100%;
         background-color: #0E1823;
     
-       transform: translateX(100%);
+        transform: translateX(100%);
      
     }
     
@@ -19,7 +19,6 @@
         transform: translateX(0%);
     }
     .mobile-menu-container {
-
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -35,13 +34,11 @@
         justify-content: space-between;
         padding: 7px 20px;
     
-    
         border-radius: 8px;
         border: 1px solid #FBFBFB;
             
         background-color:#FBFBFB;
-    
-        width: 100%;
+          
         max-width: 335px;
     
     }
@@ -56,8 +53,7 @@
    
 
     .mobile-menu-close-btn {
-      
-       
+          
         display: flex;
         align-items: center;
         Justify-content: center; 
@@ -85,9 +81,7 @@
     .mobile-menu-navigation-item {
         width: 91px;
         height: 40px;
-    
-        color: #FBFBFB;
-           
+          
         font-size: 9px;
         
         line-height: 1.3;
