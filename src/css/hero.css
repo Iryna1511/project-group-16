@@ -2,9 +2,9 @@
 
 .hero {
     max-width: 375px;
-    padding-top: 198px;
+    padding-top: 260px;
     padding-bottom: 302px;
-    background-image: url(../img/yacht/hero/hero-bg-mobile.jpg);
+    background-image: linear-gradient(359deg, rgba(17, 19, 31, 0.80) 42.62%, rgba(17, 19, 31, 0.31) 84.12%, rgba(17, 19, 31, 0.00) 99.94%), url(../img/yacht/hero/hero-bg-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -38,7 +38,7 @@
     font-weight: 300;
     line-height: 1.17;
     max-width: 335px;
-    margin-bottom: 34px;
+    margin-bottom: 38px;
 }
 
 .hero-link {
@@ -68,43 +68,34 @@
 @media screen and (min-width: 768px) {
     .hero {
         max-width: 768px;
-        padding-top: 204px;
-        padding-bottom: 302px;
-        background-image: linear-gradient(359deg, rgba(17, 19, 31, 0.80) 42.62%, rgba(17, 19, 31, 0.31) 84.12%, rgba(17, 19, 31, 0.00) 99.94%), url(../img/yacht/hero/hero-bg-mobile.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: -59px;
+        padding-top: 280px;
+        padding-bottom: 282px;
+        background-image: linear-gradient(359deg, rgba(17, 19, 31, 0.80) 42.62%, rgba(17, 19, 31, 0.31) 84.12%, rgba(17, 19, 31, 0.00) 99.94%), url(../img/yacht/hero/hero-bg-tablet.jpg);
+        margin-bottom: -67px;
     }
 
     @media (min-resolution: 192dpi) {
         .hero {
-            background-image: linear-gradient(359deg, rgba(17, 19, 31, 0.80) 42.62%, rgba(17, 19, 31, 0.31) 84.12%, rgba(17, 19, 31, 0.00) 99.94%), url(../img/yacht/hero/hero-bg-mobile@2x.jpg);
+            background-image: linear-gradient(359deg, rgba(17, 19, 31, 0.80) 42.62%, rgba(17, 19, 31, 0.31) 84.12%, rgba(17, 19, 31, 0.00) 99.94%), url(../img/yacht/hero/hero-bg-tablet@2x.jpg);
         }
     }
 
     .hero-title {
-        text-align: center;
-        font-size: 32px;
+        font-size: 70px;
         font-weight: 500;
         line-height: 1;
         letter-spacing: -0.02em;
-        max-width: 335px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 24px;
+        max-width: 704px;
     }
 
     .hero-text {
         color: #fbfbfbb3;
         text-align: center;
-        font-size: 12px;
+        font-size: 16px;
         font-weight: 300;
-        line-height: 1.17;
-        max-width: 335px;
-        margin-bottom: 34px;
+        line-height: 1.4;
+        max-width: 597px;
+        margin-bottom: 48px;
     }
 
     .hero-link {
