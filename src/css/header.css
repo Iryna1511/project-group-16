@@ -13,6 +13,9 @@
   color: #1b414b;
   border-radius: 8px;
   border: 1px solid #fbfbfb;
+  position: sticky;
+    z-index: 9999999;
+    margin-bottom: -62px;
 }
 
 .manu-icon-list-header {
@@ -131,6 +134,7 @@
   .pege-header {
     max-width: 1080px;
     padding: 4px 30px;
+    margin-bottom: -80px;
   }
 }
 /*================HEDER-DESKTOP================= */
