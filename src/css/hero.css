@@ -1,0 +1,132 @@
+/* Hero Section Styles Mobyle */
+
+.hero {
+    max-width: 375px;
+    padding-top: 260px;
+    padding-bottom: 302px;
+    background-image: url(../img/yacht/hero/hero-bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -59px;
+}
+
+@media screen and (min-resolution: 192dpi) and (max-width: 767px), screen and (min-resolution: 2dppx) and (max-width: 767px), screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+    .hero {
+        background-image: url(../img/yacht/hero/hero-bg-mobile@2x.jpg);
+    }
+}
+
+.hero-title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+}
+
+.hero-text {
+    color: #fbfbfbb3;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.17;
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 38px;
+}
+
+.hero-link {
+    background-color: #1B414B;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    display: block;
+    width: 141px;
+    height: 46px;
+    border: none;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 14px 32px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-link:hover,
+.hero-link:focus {
+    color: #1B414B;
+    background-color: #FBFBFB;
+}
+
+
+/* Hero Section Styles Tablet */
+
+@media screen and (min-width: 768px) {
+    .hero {
+        max-width: 768px;
+        padding-top: 280px;
+        padding-bottom: 282px;
+        background-image: url(../img/yacht/hero/hero-bg-tablet.jpg);
+        margin-bottom: -67px;
+    }
+
+    .hero-title {
+        font-size: 70px;
+        max-width: 704px;
+    }
+
+    .hero-text {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.4;
+        max-width: 597px;
+        margin-bottom: 48px;
+    }
+
+    .hero-link {
+        font-size: 18px;
+        line-height: 1.1;
+        width: 179px;
+        height: 52px;
+        padding: 16px 40px;
+    }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .hero {
+        background-image: url(../img/yacht/hero/hero-bg-tablet@2x.jpg);
+        }
+}
+
+
+/* Hero Section Styles Desktop 1280 px */
+
+@media screen and (min-width: 1280px) {
+    .hero {
+        max-width: 1280px;
+        padding-top: 235px;
+        padding-bottom: 215px;
+        background-image: url(../img/yacht/hero/hero-bg-desctop.jpg);
+        margin-bottom: -35px;
+    }
+
+    .hero-title {
+        font-size: 80px;
+        max-width: 1001px;
+    }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1280px), screen and (min-resolution: 2dppx) and (min-width: 1280px), screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+    .hero {
+        background-image: url(../img/yacht/hero/hero-bg-desctop@2x.jpg);
+    }
+}
