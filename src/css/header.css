@@ -1,0 +1,136 @@
+/*================HEDER================= */
+
+/*================HEDER-MOBILE================= */
+
+.pege-header {
+  max-width: 335px;
+  padding: 7px 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fbfbfb;
+  color: #1b414b;
+  border-radius: 8px;
+  border: 1px solid #fbfbfb;
+}
+
+.manu-icon-list-header {
+  display: flex;
+  gap: 8px;
+}
+
+.logo-header {
+  color: #1b414b;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.42px;
+}
+
+@media screen and (max-width: 767px) {
+  .manu-icon-list-header {
+    display: none;
+  }
+
+  .manu-header-wrap {
+    display: none;
+  }
+
+  .header-mobile-menu-open-btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+    stroke: #1b414b;
+  }
+}
+
+/*================HEDER-MOBILE================= */
+
+/*================HEDER-TABLET================= */
+
+@media screen and (min-width: 768px) {
+  .pege-header {
+    max-width: 704px;
+    padding: 4px 28px;
+  }
+
+  .logo-header {
+    font-size: 20px;
+    letter-spacing: -0.02em;
+  }
+
+  .manu-header-wrap {
+    display: block;
+  }
+  .manu-header-wrap .manu-header {
+    display: flex;
+    gap: 4px;
+  }
+
+  .manu-header-list {
+    background: rgba(27, 65, 75, 0.5);
+    width: 91px;
+    height: 40px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .manu-header-list:hover,
+  .manu-header-list:focus {
+    background: #1b414b;
+  }
+  .manu-icon-list-header {
+    display: flex;
+    gap: 8px;
+  }
+
+  .manu-header-link {
+    color: #fbfbfb;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 130%;
+    text-transform: uppercase;
+  }
+
+  .header-mobile-menu-open-btn {
+    display: none;
+  }
+
+  .manu-icon-title-header {
+    width: 24px;
+    height: 24px;
+    line-height: 0;
+  }
+
+  .manu-icon-link-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    fill: #1b414b;
+    background-color: transparent;
+  }
+
+  .manu-icon-link-header:hover,
+  .manu-icon-link-header:focus {
+    fill: #062730;
+  }
+}
+
+/*================HEDER-TABLET================= */
+
+/*================HEDER-DESKTOP================= */
+
+@media screen and (min-width: 1280px) {
+  .pege-header {
+    max-width: 1080px;
+    padding: 4px 30px;
+  }
+}
+/*================HEDER-DESKTOP================= */
