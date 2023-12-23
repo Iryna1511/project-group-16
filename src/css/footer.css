@@ -2,13 +2,15 @@
 
 .footer_for_site {
     width: 335px;
-    margin-top: auto;
     padding: 40px 30px 20px 30px;
     border-radius: 24px 24px 0px 0px;
     background: #1B414B;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
 }
 
 /*Лого для футера*/
@@ -16,10 +18,9 @@
 .logo_link_in_footer {
     height: 18px;
     flex-shrink: 0;
-    color: #FBFBFB;
     font-size: 14px;
     font-weight: 500;
-    letter-spacing: -0.42px;
+    letter-spacing: -0.02625em;
 
 }
 
@@ -46,7 +47,6 @@
     border: 1px solid rgba(251, 251, 251, 0.30);
     background-color: rgba(251, 251, 251, 0.30);
     overflow: hidden;
-    color: #FBFBFB;
     font-size: 9px;
     font-weight: 400;
     line-height: 1.30;
@@ -94,12 +94,11 @@ active {
 /*Текст у футері*/
 
 .text_for_footer {
-    color: #FBFBFB;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 100%;
-    letter-spacing: -0.36px;
+    letter-spacing: -0.0225em;
     width: 279px;
     margin: 0 auto;
     margin-bottom: 82px;
@@ -126,7 +125,7 @@ active {
     font-size: 12px;
     font-weight: 400;
     line-height: 14px;
-    letter-spacing: 0.36px;
+    letter-spacing: 0.0225em;
 }
 
 
@@ -138,11 +137,12 @@ active {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        margin-top: 75px;
     }
 
     .logo_link_in_footer {
         font-size: 20px;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.0375em;
     }
 
     /*Кнопки навігації для футера*/
@@ -159,8 +159,6 @@ active {
         width: 100%;
     }
 
-    .body_buttons_in_footer {}
-
     /*Іконки*/
 
     .ul_for_icon_in_footer {
@@ -175,9 +173,8 @@ active {
 
     .text_for_footer {
         width: 640px;
-        color: #FBFBFB;
         font-size: 32px;
-        letter-spacing: -0.64px;
+        letter-spacing: -0.04em;
     }
 
     /*Останні лінки у футері*/
@@ -189,7 +186,7 @@ active {
     .last_links_in_footer {
         font-size: 14px;
         line-height: 1.18;
-        letter-spacing: 0.42px;
+        letter-spacing: 0.02625em;
     }
 
     .table_for_links {
@@ -206,11 +203,12 @@ active {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        margin-top: 75px;
     }
 
     .logo_link_in_footer {
         font-size: 20px;
-        letter-spacing: -0.6px;
+        letter-spacing: -0.0375em;
         margin-right: 0px;
     }
 
@@ -246,9 +244,8 @@ active {
 
     .text_for_footer {
         width: 640px;
-        color: #FBFBFB;
         font-size: 32px;
-        letter-spacing: -0.64px;
+        letter-spacing: -0.04em;
     }
 
     /*Останні лінки у футері*/
@@ -260,7 +257,7 @@ active {
     .last_links_in_footer {
         font-size: 14px;
         line-height: 1.18;
-        letter-spacing: 0.42px;
+        letter-spacing: 0.02625em;
     }
 
 }
@@ -268,6 +265,7 @@ active {
 @media screen and (min-width: 1280px) {
     .footer_for_site {
         flex-direction: column;
+        margin-top: 75px;
     }
 
     .div_for_link_in_footer {
