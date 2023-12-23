@@ -17,7 +17,6 @@
   background-color: #fbfbfb;
   color: #1b414b;
   border-radius: 8px;
-  border: 1px solid #fbfbfb;
 }
 
 .manu-icon-list-header {
@@ -29,7 +28,7 @@
   color: #1b414b;
   font-size: 14px;
   font-weight: 500;
-  letter-spacing: -0.42px;
+  letter-spacing: -0.03em;
 }
 
 @media screen and (max-width: 767px) {
@@ -100,7 +99,7 @@
     text-align: center;
     font-size: 9px;
     font-weight: 400;
-    line-height: 130%;
+    line-height: 1.3;
     text-transform: uppercase;
   }
 
@@ -140,6 +139,12 @@
   .pege-header {
     max-width: 1080px;
     padding: 4px 30px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .pege-header {
+    max-width: 1240px;
   }
 }
 /*================HEDER-DESKTOP================= */
