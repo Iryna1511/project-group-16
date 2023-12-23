@@ -135,3 +135,20 @@
     background-image: url(../img/yacht/hero/hero-bg-desctop@2x.jpg);
   }
 }
+
+/* Hero Section Styles Desktop 1440 px */
+
+@media screen and (min-width: 1440px) {
+  .hero {
+    max-width: 1440px;
+    background-image: url(../img/yacht/hero/hero-bg-desctop1440px.jpg);
+  }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1440px),
+screen and (min-resolution: 2dppx) and (min-width: 1440px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+  .hero {
+    background-image: url(../img/yacht/hero/hero-bg-desctop1440px@2x.jpg);
+  }
+}
