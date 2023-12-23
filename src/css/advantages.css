@@ -95,18 +95,9 @@
 }
 }
 @media screen and (min-width: 1440px) {
-.container {
-        max-width: 1440px;
-        
-    }
 .list-advantages {
     max-width: 768px;
     }
-
-.list-header-advantages.current::after {
-        max-width: 318px;
-    }
-
 .thumb {
         max-width: 540px;
     }
