@@ -1,5 +1,4 @@
 .list-advantages{
-    list-style-type: none;
     display: flex;
     border-radius: 24px;
     background: #1B414B;
@@ -9,17 +8,14 @@
     padding: 80px 20px;
     max-width: 335px;
     gap: 40px;
-    margin-left: 0;
-    margin-right: 0;
-    
-    
+       
 }
   
 .list-header-advantages {
     color: #FBFBFB;
     font-size: 28px;
     font-weight: 500;
-    line-height: 1.0;
+    line-height: 1;
     letter-spacing: 0.05em;
     margin-bottom: 38px;
         
@@ -43,7 +39,6 @@ position: relative;
     }
 
 .text-advantages{
-    color: #FBFBFB;
     font-size: 12px;
     font-weight: 400;
     line-height: 1.16;
@@ -51,15 +46,14 @@ position: relative;
     max-width: 292px;
 }
 
-@media screen and (min-width: 768px) {
-    .thumb{
-        display: block;
-        border: transparent;
-        border-radius: 24px;
-        width: 704px;
-        overflow: hidden;
-    }
+.thumb {
+    display: block;
+    border-radius: 24px;
+    max-width: 335px;
+    overflow: hidden;
+}
 
+@media screen and (min-width: 768px) {
     .list-advantages {
         display: flex;
         flex-direction: row;
@@ -69,9 +63,6 @@ position: relative;
         margin-bottom: 32px;
         padding: 90px 32px;
         max-width: 704px;
-        margin-left: 0;
-        margin-right: 0;
-
     }
 
     .item-list-advantages{
@@ -83,14 +74,13 @@ position: relative;
 
     }
 
-    .list-header-advantages.current::after {
-        width: 100%;
-        
-    }
-
     .text-advantages {
         font-size: 13px;
         max-width: 292px;
+    }
+
+    .thumb {
+        max-width: 704px;
     }
 }
 @media screen and (min-width: 1280px) {
@@ -112,7 +102,7 @@ position: relative;
 }
 
 .thumb {
-    width: 432px;
+    max-width: 432px;
 }
 }
 @media screen and (min-width: 1440px) {
