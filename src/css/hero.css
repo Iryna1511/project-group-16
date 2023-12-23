@@ -4,7 +4,7 @@
   max-width: 375px;
   padding-top: 260px;
   padding-bottom: 302px;
-  background-image: url(../img/yacht/hero/hero-bg-mobile.jpg);
+  background-image: url(./img/yacht/hero/hero-bg-mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -18,7 +18,7 @@
   screen and (min-resolution: 2dppx) and (max-width: 767px),
   screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
   .hero {
-    background-image: url(../img/yacht/hero/hero-bg-mobile@2x.jpg);
+    background-image: url(./img/yacht/hero/hero-bg-mobile@2x.jpg);
   }
 }
 
@@ -76,7 +76,7 @@
     max-width: 768px;
     padding-top: 280px;
     padding-bottom: 282px;
-    background-image: url(../img/yacht/hero/hero-bg-tablet.jpg);
+    background-image: url(./img/yacht/hero/hero-bg-tablet.jpg);
     margin-bottom: -67px;
     margin-top: -80px;
   }
@@ -107,7 +107,7 @@
   screen and (min-resolution: 2dppx) and (min-width: 768px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
   .hero {
-    background-image: url(../img/yacht/hero/hero-bg-tablet@2x.jpg);
+    background-image: url(./img/yacht/hero/hero-bg-tablet@2x.jpg);
   }
 }
 
@@ -118,7 +118,7 @@
     max-width: 1280px;
     padding-top: 235px;
     padding-bottom: 215px;
-    background-image: url(../img/yacht/hero/hero-bg-desctop.jpg);
+    background-image: url(./img/yacht/hero/hero-bg-desctop.jpg);
     margin-bottom: -35px;
   }
 
@@ -132,6 +132,23 @@
   screen and (min-resolution: 2dppx) and (min-width: 1280px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
   .hero {
-    background-image: url(../img/yacht/hero/hero-bg-desctop@2x.jpg);
+    background-image: url(./img/yacht/hero/hero-bg-desctop@2x.jpg);
+  }
+}
+
+/* Hero Section Styles Desktop 1440 px */
+
+@media screen and (min-width: 1440px) {
+  .hero {
+    max-width: 1440px;
+    background-image: url(./img/yacht/hero/hero-bg-desctop-plus.jpg);
+  }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1440px),
+screen and (min-resolution: 2dppx) and (min-width: 1440px),
+screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+  .hero {
+    background-image: url(./img/yacht/hero/hero-bg-desctop-plus@2x.jpg);
   }
 }
