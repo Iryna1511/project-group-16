@@ -3,9 +3,14 @@
 /*================HEDER-MOBILE================= */
 
 .pege-header {
+  position: relative;
+  z-index: 888;
+  top: 20px;
+
+  margin-left: auto;
+  margin-right: auto;
   max-width: 335px;
   padding: 7px 20px;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -51,6 +56,8 @@
 
 @media screen and (min-width: 768px) {
   .pege-header {
+    top: 32px;
+
     max-width: 704px;
     padding: 4px 28px;
   }
