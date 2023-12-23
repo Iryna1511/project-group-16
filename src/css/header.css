@@ -59,7 +59,6 @@
 @media screen and (min-width: 768px) {
   .pege-header {
     top: 32px;
-
     max-width: 704px;
     padding: 4px 28px;
     margin-bottom: -80px;
@@ -146,8 +145,9 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .pege-header {
-      max-width: 1240px;         
-    }
+  .pege-header {
+    max-width: 1240px;         
   }
+}
+
 /*================HEDER-DESKTOP================= */
