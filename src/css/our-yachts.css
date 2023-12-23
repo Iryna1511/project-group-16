@@ -1,0 +1,146 @@
+
+.ouryachts-title{
+  text-align: center;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-bottom: 40px;
+}
+.ouryachts-list{
+  margin-bottom: 40px;
+}
+.ouryachts-list-item{
+  padding: 16px;
+  border-radius: 24px;
+  background-color: #FBFBFB;
+}
+.ouryachts-list-item:nth-child(2n + 0){
+  display: none;
+}
+.ouryachts-list-item:last-child{
+  display: none;
+}
+.list-item-top-img{
+  width: 100%;
+  border-radius: 24px;
+}
+.list-item-bottom{
+  padding: 32px 16px 16px;
+}
+.list-item-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 17px;
+  border-bottom: 1px solid  rgba(4, 3, 6, 0.10);
+}
+.list-item-info-title{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: -0.045em;
+  text-transform: uppercase;
+  color: #1B414B;
+}
+.list-item-info-text{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  opacity: 0.4;
+  text-transform: uppercase;
+  color: #040306;
+}
+.list-item-prices{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+}
+.list-item-prices-label{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  opacity: 0.4;
+  text-transform: uppercase;
+  text-align: left;
+  color: #040306;
+  row-gap: 6px;
+  display: flex;
+  flex-direction: column;
+}
+.list-item-prices-price{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #040306;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+.ouryachts-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 141px;
+  height: 46px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+
+  padding: 16px;
+  border-radius: 15px;
+  border: 1px solid rgba(251, 251, 251, 0.35);
+}
+
+
+@media screen and (min-width: 768px){
+.ouryachts-title{
+  max-width: 714px;
+  font-size: 48px;
+  margin: 0 auto 75px;
+}
+.ouryachts-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.ouryachts-list-item:nth-child(2n + 0){
+  display: block;
+}
+.list-item-info-title{
+  font-size: 16px;
+}
+.list-item-info-title-span{
+  display: none;
+}
+.list-item-info-text{
+  font-size: 13px;
+}
+.ouryachts-link{
+  width: 179px;
+  font-size: 18px;
+}
+}
+@media screen and (min-width: 1280px){
+  .ouryachts-list-item:last-child{
+  display: block;
+}
+.list-item-info-title-span{
+  display: inline-flex;
+}
+.ouryachts-link{
+  transition: background-color 250ms cubic-bezier(.65, .66, .54, .52);
+}
+.ouryachts-link:hover,
+.ouryachts-link:focus{
+  color: #1B414B;
+  background-color: #FBFBFB;
+}
+}
