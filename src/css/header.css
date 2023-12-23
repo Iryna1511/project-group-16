@@ -14,12 +14,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fbfbfb;  
+  background-color: #fbfbfb;
+  color: #1b414b;
   border-radius: 8px;
-  border: 1px solid #fbfbfb;
-  position: sticky;
-    z-index: 9999999;
-    margin-bottom: -62px;
 }
 
 .manu-icon-list-header {
@@ -59,9 +56,9 @@
 @media screen and (min-width: 768px) {
   .pege-header {
     top: 32px;
+
     max-width: 704px;
     padding: 4px 28px;
-    margin-bottom: -80px;
   }
 
   .logo-header {
@@ -83,6 +80,7 @@
     height: 40px;
     border-radius: 8px;
     text-align: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .manu-header-list:hover,
   .manu-header-list:focus {
@@ -93,14 +91,15 @@
     gap: 8px;
   }
 
-  .manu-header-link {   
+  .manu-header-link {
+    color: #fbfbfb;
     display: block;
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
     font-size: 9px;
     font-weight: 400;
-    line-height: 11.7px;
+    line-height: 1.3;
     text-transform: uppercase;
   }
 
@@ -140,14 +139,6 @@
   .pege-header {
     max-width: 1080px;
     padding: 4px 30px;
-   
   }
 }
-
-@media screen and (min-width: 1440px) {
-  .pege-header {
-    max-width: 1240px;         
-  }
-}
-
 /*================HEDER-DESKTOP================= */
