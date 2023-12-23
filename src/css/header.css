@@ -141,4 +141,10 @@
     padding: 4px 30px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .pege-header {
+    max-width: 1240px;
+  }
+}
 /*================HEDER-DESKTOP================= */
