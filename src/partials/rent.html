@@ -1,0 +1,98 @@
+<section class="section">
+  <div class="container rent-container">
+    <div class="contact-form-wrapper">
+      <h2 class="rent-section-title">Rent a yacht now</h2>
+      <form
+        class="contact-form"
+        name="contact-form"
+        autocomplete="off"
+        novalidate
+      >
+        <label class="contact-form-label">
+          <input
+            class="contact-form-input"
+            type="text"
+            pattern="[a-zA-Zа-яА-ЯіІїЇєЄ']+"
+            name="contact-name"
+            id="contact-name"
+            placeholder="Full Name"
+            required
+          />
+        </label>
+
+        <label class="contact-form-label">
+          <input
+            class="contact-form-input"
+            type="email"
+            name="contact-email"
+            id="contact-email"
+            placeholder="Email"
+            required
+          />
+        </label>
+
+        <label class="contact-form-label">
+          <input
+            class="contact-form-input"
+            type="tel"
+            name="contact-tel"
+            id="contact-tel"
+            placeholder="Phone number"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+            title="xxx-xxx-xx-xx"
+            required
+          />
+        </label>
+
+        <label class="contact-form-label" for="user-comment">
+          <textarea
+            class="contact-form-comment"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comment"
+            required
+          >
+          </textarea>
+        </label>
+
+        <button class="contact-form-btn" type="submit">Send</button>
+      </form>
+    </div>
+
+    <picture class="rent-img-container">
+      <source
+        srcset="
+          ./img/yacht/rentayacht/reantayacht-desctop-plus@2x.jpg 2x,
+          ./img/yacht/rentayacht/rentayacht-desctop-plus.jpg     1x
+        "
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="
+          ./img/yacht/rentayacht/rentayacht-desctop.jpg    1x,
+          ./img/yacht/rentayacht/rentayacht-desctop@2x.jpg 2x
+        "
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="
+          ./img/yacht/rentayacht/rentayacht-tablet.jpg    1x,
+          ./img/yacht/rentayacht/rentayacht-tablet@2x.jpg 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <source
+        srcset="
+          ./img/yacht/rentayacht/rentayacht-mobile.jpg    1x,
+          ./img/yacht/rentayacht/rentayacht-mobile@2x.jpg 2x
+        "
+        media="(max-width: 767px)"
+      />
+
+      <img
+        src="../img/yacht/rentayacht/rentayacht-mobile.jpg"
+        alt="yacht-picture"
+      />
+    </picture>
+  </div>
+</section>
