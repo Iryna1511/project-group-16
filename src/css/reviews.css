@@ -113,3 +113,17 @@
 }
 
 /* ============== DESKTOP REVIEW STYLES ============== */
+
+@media screen and (min-width: 1440px) {
+  .reviews-list {
+      column-gap: 32px;
+    }
+
+  .reviews-list-item,
+  .review-hidden-first,
+  .review-hidden-second {
+      max-width: calc((100% - 64px) / 3);
+      padding: 32px 36px;
+  }
+
+}
