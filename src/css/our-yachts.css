@@ -142,3 +142,9 @@
     background-color: #fbfbfb;
   }
 }
+@media screen and (min-width: 1440px){
+  .ouryachts-list{
+    column-gap: 32px;
+    justify-content: center;
+  }
+}
