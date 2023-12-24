@@ -128,9 +128,6 @@
         font-size: 48px;
     }
 
-    .contact-form-wrapper {
-        gap: 50px;
-    }
     .rent-container {
         gap: 100px;
     }
@@ -139,6 +136,7 @@
         max-width: 472px;
         margin-left:auto;
         margin-right:auto;
+        gap: 50px;
     }
 
     .contact-form-input {
@@ -166,7 +164,6 @@
 
 @media screen and (min-width: 1280px) {
     .rent-container {
-        display:flex; 
         flex-direction: row-reverse; 
         gap:50px; 
         justify-content: flex-end;
@@ -184,3 +181,4 @@
     }
 
 }
+
