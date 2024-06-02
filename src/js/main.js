@@ -1,5 +1,3 @@
-'use strict';
-
 const mobileMenuOpenbtn = document.querySelector(
   '.header-mobile-menu-open-btn'
 );
