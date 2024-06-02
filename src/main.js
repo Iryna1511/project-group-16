@@ -1,11 +1,15 @@
-let mobilemenuopenbtn = document.querySelector('.header-mobile-menu-open-btn');
-let mobailform = document.querySelector('.mobile-menu-wrapper');
-let mobileclosebtn = document.querySelector('.mobile-menu-close-btn');
+'use strict';
 
-mobilemenuopenbtn.addEventListener('click', () => {
-    mobailform.classList.add('is-open'); // Use 'is-open' here
+const mobileMenuOpenbtn = document.querySelector(
+  '.header-mobile-menu-open-btn'
+);
+const mobileForm = document.querySelector('.mobile-menu-wrapper');
+const mobileMenuClosebtn = document.querySelector('.mobile-menu-close-btn');
+
+mobileMenuOpenbtn.addEventListener('click', e => {
+  mobileForm.classList.add('is-open');
 });
 
-mobileclosebtn.addEventListener('click', (e) => {
-    mobailform.classList.remove('is-open');
+mobileMenuClosebtn.addEventListener('click', e => {
+  mobileForm.classList.remove('is-open');
 });
